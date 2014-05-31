@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check(ord("R"))) { has_held = has_held + 1; }
+            <string>if (keyboard_check(ord("R")) || gamepad_button_check(0,gp_start)) { has_held = has_held + 1; }
 else { has_held = 0; }
 
 if (has_held &gt; 50) { game_restart(); }

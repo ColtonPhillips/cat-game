@@ -4,32 +4,65 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_intro</sound>
+    <sound>sound\snd_chip_coin</sound>
+    <sound>sound\snd_jj</sound>
+    <sound>sound\snd_prism_armageddon</sound>
+    <sound>sound\snd_brandon_the_cat</sound>
+  </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_cat_idle</sprite>
     <sprite>sprites\spr_cat_walk</sprite>
     <sprite>sprites\spr_cat_fall</sprite>
     <sprite>sprites\spr_cat_jump</sprite>
-    <sprite>sprites\sprite1</sprite>
-    <sprite>sprites\sprite2</sprite>
-    <sprite>sprites\spr_cat_idle</sprite>
+    <sprite>sprites\spr_red_pixel</sprite>
+    <sprite>sprites\spr_intro_animation</sprite>
+    <sprite>sprites\spr_portal</sprite>
+    <sprite>sprites\spr_fake_coin</sprite>
+    <sprite>sprites\spr_grep</sprite>
+    <sprite>sprites\spr_sensor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_simple</background>
     <background>background\bg_simple_tiles</background>
+    <background>background\bg_transparent_mountains</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_grep</path>
+  </paths>
   <scripts name="scripts">
-    <script>scripts\scr_reify_floor.gml</script>
+    <script>scripts\scr_reify_room_pieces.gml</script>
     <script>scripts\scr_chance.gml</script>
+    <script>scripts\image_scale_equal.gml</script>
+    <script>scripts\scr_init_thinker_gremlin.gml</script>
+    <script>scripts\scr_spawn_general.gml</script>
+    <script>scripts\scr_think.gml</script>
+    <script>scripts\scr_create_sprite_from_bg.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_grep</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_cat</object>
     <object>objects\obj_debug_floor</object>
     <object>objects\obj_debug_hold_r_restart_game</object>
     <object>objects\obj_player_failure_room_restart</object>
+    <object>objects\obj_intro_controller</object>
+    <object>objects\obj_portal_decoration</object>
+    <object>objects\obj_fake_coin</object>
+    <object>objects\obj_sensor</object>
+    <object>objects\obj_grep</object>
+    <object>objects\obj_text</object>
+    <object>objects\obj_cat_adder</object>
+    <object>objects\obj_collidable_parent</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_intro</room>
     <room>rooms\room0</room>
+    <room>rooms\room2</room>
+    <room>rooms\room3</room>
+    <room>rooms\room4</room>
   </rooms>
   <constants number="1">
     <constant name="GRAVITY">2</constant>
