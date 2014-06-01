@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (obj_cat.y &gt; room_height + 100) { room_restart();}
+            <string>if (!instance_exists(obj_cat)) return 0;
+
+if (obj_cat.y &gt; room_height + 100) { room_restart();}
 </string>
           </argument>
         </arguments>

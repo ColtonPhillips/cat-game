@@ -22,6 +22,9 @@
     <sprite>sprites\spr_fake_coin</sprite>
     <sprite>sprites\spr_grep</sprite>
     <sprite>sprites\spr_sensor</sprite>
+    <sprite>sprites\spr_annoying_gremlin</sprite>
+    <sprite>sprites\spr_sharp_bit</sprite>
+    <sprite>sprites\spr_pinwheel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_simple</background>
@@ -42,6 +45,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_grep</font>
+    <font>fonts\fnt_gremlin</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_cat</object>
@@ -50,12 +54,16 @@
     <object>objects\obj_player_failure_room_restart</object>
     <object>objects\obj_intro_controller</object>
     <object>objects\obj_portal_decoration</object>
+    <object>objects\obj_death_decoration</object>
     <object>objects\obj_fake_coin</object>
     <object>objects\obj_sensor</object>
     <object>objects\obj_grep</object>
+    <object>objects\obj_annoying_gremlin</object>
     <object>objects\obj_text</object>
     <object>objects\obj_cat_adder</object>
     <object>objects\obj_collidable_parent</object>
+    <object>objects\obj_sharp_bit</object>
+    <object>objects\obj_pinwheel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>

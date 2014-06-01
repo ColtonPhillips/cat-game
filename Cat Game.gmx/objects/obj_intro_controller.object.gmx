@@ -25,7 +25,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (gamepad_button_check_pressed(0,gp_face1)) {audio_stop_all();
+            <string>if (gamepad_button_check_pressed(0,gp_face1)) {
+audio_stop_all();
+room_goto_next();
+}
+if (gamepad_button_check_pressed(1,gp_face1)) {
+audio_stop_all();
+room_goto_next();
+}
+if (gamepad_button_check_pressed(2,gp_face1)) {
+audio_stop_all();
+room_goto_next();
+}
+if (gamepad_button_check_pressed(3,gp_face1)) {
+audio_stop_all();
+room_goto_next();
+}
+if (gamepad_button_check_pressed(0,gp_start)) {
+audio_stop_all();
 room_goto_next();
 }
 </string>
@@ -33,7 +50,7 @@ room_goto_next();
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="32">
+    <event eventtype="5" enumb="1">
       <action>
         <libid>1</libid>
         <id>603</id>

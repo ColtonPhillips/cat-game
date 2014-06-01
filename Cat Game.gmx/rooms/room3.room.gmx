@@ -47,7 +47,7 @@ if (!audio_is_playing(snd_prism_armageddon)) {
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="obj_cat" xview="0" yview="0" wview="640" hview="360" xport="0" yport="0" wport="1280" hport="720" hborder="320" vborder="320" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_cat" xview="0" yview="0" wview="640" hview="360" xport="0" yport="0" wport="1280" hport="720" hborder="320" vborder="320" hspeed="3" vspeed="3"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -61,6 +61,52 @@ if (!audio_is_playing(snd_prism_armageddon)) {
     <instance objName="obj_cat" x="544" y="64" name="inst_675DA732" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fake_coin" x="1312" y="672" name="inst_A479E686" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sensor" x="6400" y="480" name="inst_077D8B38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_annoying_gremlin" x="911" y="595" name="inst_C0B10B06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="384" y="192" name="inst_111825EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="800" y="416" name="inst_D54A3C1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="928" y="288" name="inst_3761E490" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="2624" y="736" name="inst_E16BDA76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="4352" y="128" name="inst_F862F96E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="5312" y="640" name="inst_F9223920" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="6432" y="64" name="inst_7E73C6EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="7136" y="448" name="inst_A636193C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="7296" y="576" name="inst_2F5DD0D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="8704" y="96" name="inst_7A005802" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="8800" y="352" name="inst_356B47AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="8864" y="512" name="inst_4D898777" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="8928" y="608" name="inst_7A51B216" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="9728" y="32" name="inst_FE86D334" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="9792" y="256" name="inst_2BD95291" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="9888" y="480" name="inst_168A1347" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="9920" y="640" name="inst_DC532F9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="10176" y="-320" name="inst_D6CEDC76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="10304" y="-128" name="inst_9DDDC302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="10368" y="192" name="inst_2A95B192" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="10368" y="416" name="inst_203DA8AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="1280" y="448" name="inst_1213151A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="1280" y="576" name="inst_E567DBCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="1312" y="160" name="inst_2DAE2E3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="1344" y="64" name="inst_E501EB16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3584" y="224" name="inst_DF1A055F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3520" y="64" name="inst_EABD6AF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3552" y="64" name="inst_2D8FD14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3584" y="64" name="inst_37B32460" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3648" y="64" name="inst_BC791E5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3680" y="64" name="inst_B15D0780" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3712" y="64" name="inst_D9273BE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3776" y="64" name="inst_1EE45C6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3808" y="64" name="inst_A5D06651" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3840" y="64" name="inst_B8E55247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3872" y="64" name="inst_697F0AD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3872" y="32" name="inst_86D4DC5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3904" y="32" name="inst_AC533B67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3936" y="32" name="inst_2E873AE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="3968" y="32" name="inst_1C342E57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="4000" y="32" name="inst_A060D6CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="4032" y="32" name="inst_3C0E40A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="4096" y="32" name="inst_61C72A30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="4128" y="32" name="inst_EEFEF684" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="4128" y="64" name="inst_C0473768" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_simple_tiles" x="0" y="704" w="128" h="128" xo="384" yo="512" id="10000513" name="inst_6B124359" depth="9001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

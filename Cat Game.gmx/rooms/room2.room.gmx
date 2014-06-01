@@ -43,7 +43,7 @@ audio_play_sound(snd_brandon_the_cat,1,true);</code>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="obj_cat" xview="0" yview="0" wview="640" hview="360" xport="0" yport="0" wport="1280" hport="720" hborder="320" vborder="320" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_cat" xview="0" yview="0" wview="640" hview="360" xport="0" yport="0" wport="1280" hport="720" hborder="320" vborder="320" hspeed="3" vspeed="3"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -56,7 +56,16 @@ audio_play_sound(snd_brandon_the_cat,1,true);</code>
     <instance objName="obj_grep" x="160" y="256" name="inst_FDAD0490" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cat" x="544" y="64" name="inst_675DA732" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fake_coin" x="1312" y="672" name="inst_A479E686" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sensor" x="1472" y="320" name="inst_07AC5BCE" locked="0" code="" scaleX="6" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sensor" x="1504" y="320" name="inst_07AC5BCE" locked="0" code="" scaleX="6" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="32" y="-192" name="inst_089FB06B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="224" y="-224" name="inst_C0178483" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="384" y="-224" name="inst_9AE25B52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="736" y="-256" name="inst_C33A5ECC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="832" y="-384" name="inst_7DA3DB4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="1088" y="-448" name="inst_5B605EC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="1216" y="-384" name="inst_90AB0762" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="1408" y="-416" name="inst_17053EC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="1184" y="32" name="inst_35C2FFEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_simple_tiles" x="0" y="704" w="128" h="128" xo="384" yo="512" id="10000513" name="inst_6B124359" depth="9001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
