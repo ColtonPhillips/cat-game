@@ -57,7 +57,7 @@ if (!audio_is_playing(snd_jj)) {
   </views>
   <instances>
     <instance objName="obj_cat" x="93" y="137" name="inst_B1ED5DAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_debug_hold_r_restart_game" x="33" y="80" name="inst_14CB1003" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sharp_bit" x="726" y="1024" name="inst_7D88AA2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sensor" x="2563" y="1424" name="inst_1B29C41C" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_fake_coin" x="96" y="224" name="inst_6F30E9D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fake_coin" x="96" y="320" name="inst_73E3F59B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -142,7 +142,6 @@ if (!audio_is_playing(snd_jj)) {
     <instance objName="obj_sharp_bit" x="2343" y="-96" name="inst_B74BD10C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sharp_bit" x="792" y="-160" name="inst_09B5CDAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sharp_bit" x="1331" y="-160" name="inst_DF1ED90B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sharp_bit" x="726" y="1024" name="inst_7D88AA2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_simple_tiles" x="-96" y="64" w="128" h="256" xo="0" yo="0" id="10000120" name="inst_1245C9E3" depth="9001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

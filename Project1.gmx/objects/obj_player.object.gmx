@@ -2,7 +2,7 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,18 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>cat_0 = true;
-cat_1 = false;
-cat_2 = false;
-cat_3 = false;
+            <string>image_speed = 0.15;
+x = view_wview[0]/2;
+y = 544;
 
-first_step = true;
+var_sprite_width = sprite_get_width(spr_walk);
+var_sprite_height = sprite_get_height(spr_walk);
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -53,24 +53,19 @@ first_step = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (first_step){first_step = false; _x = obj_cat.x; _y = obj_cat.y;}
+            <string>con = obj_controller;
 
-if (!cat_1 &amp;&amp; gamepad_button_check_pressed(1,gp_face1)) {
-    var win = instance_create(_x,_y,obj_cat);
-    with (win) {player_number = 1;}
-    cat_1 = true;
-}
+var_mouse_pos_x = mouse_x - (x-(var_sprite_width/2));
+var_mouse_pos_y = mouse_y - (y-(var_sprite_height/2));
 
-if (!cat_2 &amp;&amp; gamepad_button_check_pressed(2,gp_face1)) {
-    var win = instance_create(_x,_y,obj_cat);
-    with (win) {player_number = 2;}
-    cat_2 = true;
-}
-if (!cat_3 &amp;&amp; gamepad_button_check_pressed(3,gp_face1)) {
-    var win = instance_create(_x,_y,obj_cat);
-    with (win) {player_number = 3;}
-    cat_3 = true;
-}
+if con.shader_enabled and !con.full_screen_effect shader_set(shd_radial_blur);
+    shader_set_uniform_f(con.uni_time, con.var_time_var);
+    shader_set_uniform_f(con.uni_mouse_pos, var_mouse_pos_x, var_mouse_pos_y);
+    shader_set_uniform_f(con.uni_resolution, var_sprite_width, var_sprite_height);
+    shader_set_uniform_f(con.uni_radial_blur_offset, con.var_radial_blur_offset);
+    shader_set_uniform_f(con.uni_radial_brightness, con.var_radial_brightness);
+    draw_sprite(spr_walk,image_index,x,y);
+shader_reset();
 </string>
           </argument>
         </arguments>
@@ -88,5 +83,8 @@ if (!cat_3 &amp;&amp; gamepad_button_check_pressed(3,gp_face1)) {
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>0,0</point>
+    <point>64,64</point>
+  </PhysicsShapePoints>
 </object>

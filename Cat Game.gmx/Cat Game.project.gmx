@@ -10,6 +10,7 @@
     <sound>sound\snd_jj</sound>
     <sound>sound\snd_prism_armageddon</sound>
     <sound>sound\snd_brandon_the_cat</sound>
+    <sound>sound\snd_prism_armageddon_end</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_cat_idle</sprite>
@@ -25,11 +26,13 @@
     <sprite>sprites\spr_annoying_gremlin</sprite>
     <sprite>sprites\spr_sharp_bit</sprite>
     <sprite>sprites\spr_pinwheel</sprite>
+    <sprite>sprites\spr_mmb_explode</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_simple</background>
     <background>background\bg_simple_tiles</background>
     <background>background\bg_transparent_mountains</background>
+    <background>background\bg_mmb_explode</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_grep</path>
@@ -43,6 +46,9 @@
     <script>scripts\scr_think.gml</script>
     <script>scripts\scr_create_sprite_from_bg.gml</script>
   </scripts>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\shd_radial_blur.shader</shader>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\fnt_grep</font>
     <font>fonts\fnt_gremlin</font>
@@ -64,9 +70,13 @@
     <object>objects\obj_collidable_parent</object>
     <object>objects\obj_sharp_bit</object>
     <object>objects\obj_pinwheel</object>
+    <object>objects\obj_mmb_explode</object>
+    <object>objects\obj_mmb_shader_controller</object>
+    <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
+    <room>rooms\room5</room>
     <room>rooms\room0</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>

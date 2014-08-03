@@ -2,7 +2,7 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,18 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>cat_0 = true;
-cat_1 = false;
-cat_2 = false;
-cat_3 = false;
-
-first_step = true;
+            <string>x=0;
+y=0;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -53,24 +49,8 @@ first_step = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (first_step){first_step = false; _x = obj_cat.x; _y = obj_cat.y;}
-
-if (!cat_1 &amp;&amp; gamepad_button_check_pressed(1,gp_face1)) {
-    var win = instance_create(_x,_y,obj_cat);
-    with (win) {player_number = 1;}
-    cat_1 = true;
-}
-
-if (!cat_2 &amp;&amp; gamepad_button_check_pressed(2,gp_face1)) {
-    var win = instance_create(_x,_y,obj_cat);
-    with (win) {player_number = 2;}
-    cat_2 = true;
-}
-if (!cat_3 &amp;&amp; gamepad_button_check_pressed(3,gp_face1)) {
-    var win = instance_create(_x,_y,obj_cat);
-    with (win) {player_number = 3;}
-    cat_3 = true;
-}
+            <string>x-=2;
+draw_background_tiled_ext(bac_level,x,y,2,2,c_white,1);
 </string>
           </argument>
         </arguments>
